@@ -1,0 +1,176 @@
+.margin-top {
+    margin-top: 20vh !important;
+}
+
+.background-img {
+     background-image: url("/assets/image/background.jpg"); 
+   background-size: cover;
+    background-position: bottom;
+    top: 5.5%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.heading-top {
+    color: #000;
+    font-size: 17px !important;
+    margin-bottom: 6px;
+}
+
+.nonheading {
+    font-size: 14px !important;
+    color: #888 !important;
+    margin: 0;
+    margin-bottom: 15px !important;
+}
+
+.section2Bg {
+     background-image: url('/assets/image/backgroundElement.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectiontech {
+    background-image: url('/assets/image/bgSectionsecond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.bg-section-promis {
+     background-image: url('/assets/image/backgroundPromis.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-details-slider-3d {
+    width: 100%;
+    height: 630px;
+    margin-top: 50px;
+}
+
+.project-details-slider-3d iframe {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+/* h1{
+  line-height: 56px;
+    font-size: 54px !important
+} */
+
+
+/* cutomized service */
+
+/*
+  .button3 {width: 100%;}
+  .button {
+    background-color: #c01919; 
+     border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    margin: 100px 170px;
+    cursor: pointer;
+  }  */
+
+  /* section Design ideas */
+
+   .design{         
+      border-left: 6px solid #e54a20;   /* used line draw */ 
+      height: 30px;
+       /* position:absolute;  */
+      display: inline;
+      padding-left: 20px;
+  } 
+
+.a{ 
+  color: #e54a20;
+ font-weight: bold;
+  text-decoration: none;
+
+}
+.a:link{
+  color: #c01919;
+}
+.a:hover{color: rgb(12, 88, 250);}
+.a:active{color: rgb(212, 7, 134);}
+
+.example-card {
+  max-width: 400px;
+  border-radius: 25px;
+  display: inline block;
+}
+
+.example-header-image {
+ background-size: cover;
+}
+.card{
+ padding: 0px;
+ margin: 0px;
+} 
+
+
+  .green {
+    color: rgb(13, 233, 13);
+}
+
+.red{
+  color: red;
+}
+.list{
+ font-size: 5px;
+}
+
+.but{
+  background-color:#e54a20; /* orange*/
+  border: none;
+  color: white;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 5px 20px;
+ cursor: pointer;
+ border-radius: 25px;
+}
+
+
+
+/* bliss card hover & background */
+.bliss {
+  display: block;
+  top: 0px;
+  position: relative;
+  background-color: rgb(252, 199, 180);
+  text-decoration: none;
+  overflow: hidden;
+}
+  .bliss:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    background-color: rgb(255, 255, 255);
+  }
+  .bliss:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: red white;
+  }
+
+  .bliss:hover:before {
+    transform: scale(1);
+  }
+  
+  
+
