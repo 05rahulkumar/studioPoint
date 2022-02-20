@@ -12,12 +12,18 @@ import {MatCardModule} from '@angular/material/card';
 import { GalaryComponent } from './galary/galary.component';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import { TESTIMONIALSComponent } from './testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
+//import { GalaryBladeComponent } from './galary-blade/galary-blade.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    GalaryComponent
+    GalaryComponent,
+    TESTIMONIALSComponent,
+    FooterComponent,
+    //GalaryBladeComponent
   ],
   imports: [
     BrowserModule,

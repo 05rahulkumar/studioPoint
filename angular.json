@@ -30,7 +30,16 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/js_composer_front.js",
+              "src/assets/js/imageLoaded.js",
+              "src/assets/js/js_partion.js" ,
+              "src/assets/js/animation.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js2/construction.js",
+              "src/assets/js2/my.js"
+
+            ]
           },
           "configurations": {
             "production": {
