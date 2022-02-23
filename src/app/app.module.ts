@@ -14,7 +14,9 @@ import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import { TESTIMONIALSComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 //import { GalaryBladeComponent } from './galary-blade/galary-blade.component';
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +25,14 @@ import { FooterComponent } from './footer/footer.component';
     GalaryComponent,
     TESTIMONIALSComponent,
     FooterComponent,
+    AboutComponent,
     //GalaryBladeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule,MatCardModule,MatGridListModule,MatListModule,MatIconModule
+    MatButtonModule,MatCardModule,MatGridListModule,MatListModule,MatIconModule,MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

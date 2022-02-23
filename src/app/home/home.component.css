@@ -181,10 +181,59 @@
       top: -4px;
       border: 1px solid #cccccc;
       background-color: white; 
-    
     }
   
 
+    /* section friend  */
 
-    /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .desn{  
+      margin-left: 95px;      
+      border-top: 4px solid #e54a20;   /* used line draw */ 
+      width: 10px;
+      display: inline;
+      padding: 20px;
+    } 
+    .de{
+      margin-left: 150px;  
+      color: #e54a20 !important;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
+    .tab{
+     border-bottom: #e54a20 !important;
+     margin-left: 500px;
+    }
     
+    /* mat tab  */
+    ::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+      color:black;
+      background-color: #e54a20;
+    
+     
+      }
+      
+      ::ng-deep .mat-tab-list .mat-tab-labels {
+      color:blue;
+    
+      }
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* section we make customer happy */
+    .bg
+  {
+    width: 70%;
+    margin-left: 250px;
+  }
+
+.gfg {
+  margin: 3%;
+  
+  position: relative;
+  padding-right: 45%;
+}
+
+.second-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+
+}
