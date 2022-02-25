@@ -17,6 +17,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 //import { GalaryBladeComponent } from './galary-blade/galary-blade.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { BlogComponent } from './blog/blog.component';
+import { ProjectComponent } from './project/project.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +28,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     TESTIMONIALSComponent,
     FooterComponent,
     AboutComponent,
+    BlogComponent,
+    ProjectComponent,
     //GalaryBladeComponent
   ],
   imports: [

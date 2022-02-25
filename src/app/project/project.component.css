@@ -1,0 +1,39 @@
+.line{    /* draw line straight */ 
+    border-bottom: 1px solid #e21010;
+    width: 20%;  
+}
+/* a tag link */
+.t {
+    vertical-align: middle;
+  }
+  
+  .a{ 
+    color: #e54a20;
+   font-weight: bold;
+    text-decoration: none;
+  
+  }
+  .a:link{
+    color: #c01919;
+  }
+  .a:hover{color: rgb(12, 88, 250);}
+  .a:active{color: rgb(212, 7, 134);}
+
+  .m{
+    padding-left: 25% !important;
+  }
+
+  .den{  
+    margin-left: 200px;      
+    border-top: 4px solid #e54a20;   /* used line draw */ 
+    width: 5px;
+    display: inline;
+  } 
+
+  .bg{
+      background-color: #f8805f;
+  }
+
+  .icon {
+    font-size: 50px;
+}

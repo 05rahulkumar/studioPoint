@@ -232,8 +232,31 @@
 
 .second-txt {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
 
 }
+/* we make cutomer happy */
+.we{
+  padding-left: 50% !important;
+}
+/* experience section */
+.m{
+  padding-left: 25% !important;
+}
+.t {
+  vertical-align: middle;
+}
+
+/* section 15 */
+
+/* .pd{
+  margin-left: 6%;
+} */
+.den{  
+  margin-left: 200px;      
+  border-top: 4px solid #e54a20;   /* used line draw */ 
+  width: 5px;
+  display: inline;
+} 

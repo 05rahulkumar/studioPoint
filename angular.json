@@ -28,6 +28,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
@@ -35,9 +36,8 @@
               "src/assets/js/imageLoaded.js",
               "src/assets/js/js_partion.js" ,
               "src/assets/js/animation.js",
-              "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/js2/construction.js",
-              "src/assets/js2/my.js"
+              "node_modules/jquery/dist/jquery.min.js"
+            
 
             ]
           },
