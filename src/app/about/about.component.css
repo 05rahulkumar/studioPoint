@@ -5,7 +5,12 @@
    border: 1px solid #cccccc;
    background-color: white; 
  }
-
+ .sectiontech {
+  background-image: url('/assets/image/bgSectionsecond.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
  /* table */
 
 
@@ -30,3 +35,53 @@
 
 }
 
+/* responsible screen */
+#ab{
+  display: block;
+}
+#ab1{
+  display: none;
+}
+#tab{
+  display: block;
+} #tab1{
+  display: none;
+}
+#cad{
+  display: block;
+}
+#cad1{
+  display: none;
+}
+#girl{
+  display: block;
+}
+#girl1{
+  display: none;
+}
+@media only screen and (max-width:780px) {
+  #girl{
+    display: none;
+  }
+  #girl1{
+    display: block;
+  }
+  #ab{
+    display: none;
+  }
+  #ab1{
+    display: block;
+  }
+  #tab{
+    display: none;
+  }
+  #tab1{
+    display: block;
+  }
+  #cad{
+    display: none;
+  }
+  #cad1{
+    display: block;
+  }
+}

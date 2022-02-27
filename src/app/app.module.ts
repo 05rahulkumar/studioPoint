@@ -19,6 +19,7 @@ import { AboutComponent } from './about/about.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { ProjectComponent } from './project/project.component';
     AboutComponent,
     BlogComponent,
     ProjectComponent,
+ 
     //GalaryBladeComponent
   ],
   imports: [

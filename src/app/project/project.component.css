@@ -1,6 +1,6 @@
 .line{    /* draw line straight */ 
     border-bottom: 1px solid #e21010;
-    width: 20%;  
+    width: 30%;  
 }
 /* a tag link */
 .t {
@@ -22,7 +22,9 @@
   .m{
     padding-left: 25% !important;
   }
-
+  #m{
+    padding-left: 10% !important;
+  }
   .den{  
     margin-left: 200px;      
     border-top: 4px solid #e54a20;   /* used line draw */ 
@@ -36,4 +38,72 @@
 
   .icon {
     font-size: 50px;
+}
+
+.main{
+  /* width: 100%;
+  height: 100%; */
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  /* background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px yellow; */
+  animation: slider 20s ;
+
+ 
+}
+/* @keyframes slider{
+  0%{background-image: url('https://images.pexels.com/photos/7045712/pexels-photo-7045712.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+ 10%{background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202202/lighting-can-change-the-way-you-perceive-colours-in-your-home/Title-sofology-1379819.jpg');}
+  25%{background-image: url('https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+ 20%{background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202202/upgrade-your-home-decor-with-asian-paints-signature-trends/Title-asian-paints-11th-nov-202012594.jpg');}
+  45%{background-image: url('https://images.pexels.com/photos/7195577/pexels-photo-7195577.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+} */
+
+
+/* responsive */
+#cad1{
+  display: none;
+}
+#cad{
+  display: block;
+}
+#grid1{
+  display: none;
+}#grid{
+  display: block;
+}
+@media only screen and (max-width:780px) {
+  #cad1{
+    display: block;
+  }
+  #cad{
+    display: none;
+  }
+  #grid{
+    display: none;
+  }
+  #grid1{
+    display: block;
+  }
+}
+
+
+
+/* stylish button */
+
+.but{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+.but:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 16px 20px black;
+    top: -8px;
+    border: 1px solid #cccccc;
+    background-color: #e54a20
+
 }
