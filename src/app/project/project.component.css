@@ -75,6 +75,12 @@
 }#grid{
   display: block;
 }
+#main{
+  display: block;
+}
+#main1{
+  display: none;
+}
 @media only screen and (max-width:780px) {
   #cad1{
     display: block;
@@ -86,6 +92,12 @@
     display: none;
   }
   #grid1{
+    display: block;
+  }
+  #main{
+    display: none;
+  }
+  #main1{
     display: block;
   }
 }

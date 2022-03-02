@@ -19,7 +19,10 @@ import { AboutComponent } from './about/about.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
-
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+ import { SignupComponent } from './signup/signup.component';
+ import {MatToolbarModule} from '@angular/material/toolbar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,8 @@ import { ProjectComponent } from './project/project.component';
     AboutComponent,
     BlogComponent,
     ProjectComponent,
+    ContactComponent,
+     SignupComponent,
  
     //GalaryBladeComponent
   ],
@@ -38,7 +43,9 @@ import { ProjectComponent } from './project/project.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule,MatCardModule,MatGridListModule,MatListModule,MatIconModule,MatTabsModule
+    MatButtonModule,MatCardModule,MatGridListModule,MatListModule,MatIconModule,MatTabsModule,MatToolbarModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

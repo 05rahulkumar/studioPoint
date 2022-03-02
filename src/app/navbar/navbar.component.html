@@ -1,13 +1,19 @@
+
 <header class="prague-header  sticky-menu sticky-mobile-menu light absolute  simple">
     <div class="prague-logo">
         <a routerLink="/">
             <img width="200" height="55" src='assets/logo/Logo.svg' class="image_logo" alt="" loading="lazy" /> </a>
     </div>
 
+    <div id="nav">
     <div class="prague-header-wrapper">
 
             <div class="pargue-navigation-wrapper">
                 <div class="prague-navigation-inner">
+
+
+
+                    
                     <nav>
                         <ul class="main-menu">
                             <li id="menu-item-2317" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-2317"><a routerLink="/">Home</a>
@@ -72,7 +78,11 @@
                                     <li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a href="">Work Fullscreen</a></li>
                                 </ul> -->
                             </li>
-                            <li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2445"><a routerLink="blog">Blog</a>
+                            <li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2445"><a href="blog">Blog</a>
+                            </li>
+                            <li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2445"><a routerLink="contact">Contact-us</a>
+                            </li>
+                            <li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2445"><a routerLink="sign">signup</a>
                             </li>
                         </ul>
                     </nav>
@@ -83,8 +93,62 @@
 
 
     </div>
-
+</div>
 
 
 
 </header>
+
+
+
+
+
+
+
+  
+  <!-- mobile -->
+  <div id="nav1">
+    <header class="prague-header sticky-mobile-menu light absolute  simple">
+       
+    
+        <div class="prague-header-wrapper">
+    
+                <div class="pargue-navigation-wrapper">
+                    <div class="prague-navigation-inner">
+    
+                        <mat-toolbar class="m" >
+                            <button  mat-icon-button class="example-icon  " aria-label="Example icon-button with menu icon" (click)="show()">
+                              <mat-icon>menu</mat-icon>
+                            </button>
+                           </mat-toolbar>
+                           
+
+                         
+                         
+                         <nav *ngIf="display" >
+                                <ul class="main-menu" style=" display: flexbox; text-align-last: right; ">
+                                   
+                                    <li ><a  style="color: ghostwhite;" routerLink="/">Home</a> </li>
+                                    <li  ><a style="color: ghostwhite;"  routerLink="about">About Us</a> </li>
+                                    <li  ><a style="color: ghostwhite;"  routerLink="galary">Galary</a> </li>
+                                    <li ><a  style="color: ghostwhite;" routerLink="project">Projects</a> </li>
+                                    <li ><a  style="color: ghostwhite;" href="blog">Blog</a> </li> 
+                                    <li ><a  style="color: ghostwhite;" routerLink="sign">signup</a></li>
+                                   
+                                </ul>
+                            </nav>
+                      
+
+                    </div>
+                </div>
+     
+    
+    
+        </div>
+    
+    
+    
+    
+    </header>
+    
+  </div>
