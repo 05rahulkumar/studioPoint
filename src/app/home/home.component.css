@@ -431,3 +431,31 @@ display: none;}
   #cust1{
   display: block;}
 }
+
+/* slider navigation background image */
+
+.main{
+  /* width: 100%;
+  height: 100%; */
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  /* background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px yellow; */
+  animation: slider 20s linear infinite;
+
+ 
+}
+ @keyframes slider{
+  0%{background-image: url('https://images.pexels.com/photos/7045712/pexels-photo-7045712.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+  10%{background-image: url('https://images.pexels.com/photos/7045712/pexels-photo-7045712.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+  10%{background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202202/lighting-can-change-the-way-you-perceive-colours-in-your-home/Title-sofology-1379819.jpg');}
+  20%{background-image: url('https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+ 20%{background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202202/upgrade-your-home-decor-with-asian-paints-signature-trends/Title-asian-paints-11th-nov-202012594.jpg');}
+  20%{background-image: url('https://images.pexels.com/photos/7195577/pexels-photo-7195577.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');}
+20%{  background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+}
+} 

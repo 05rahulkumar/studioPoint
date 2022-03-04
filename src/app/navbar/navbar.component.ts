@@ -16,4 +16,6 @@ show(){
   this.display=!this.display
 }
   // end display navbar
+
+  
 }

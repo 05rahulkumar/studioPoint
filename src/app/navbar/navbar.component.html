@@ -1,11 +1,12 @@
 
+<div id="nav">
 <header class="prague-header  sticky-menu sticky-mobile-menu light absolute  simple">
     <div class="prague-logo">
         <a routerLink="/">
             <img width="200" height="55" src='assets/logo/Logo.svg' class="image_logo" alt="" loading="lazy" /> </a>
     </div>
 
-    <div id="nav">
+   
     <div class="prague-header-wrapper">
 
             <div class="pargue-navigation-wrapper">
@@ -15,6 +16,7 @@
 
                     
                     <nav>
+                        <div class="a">
                         <ul class="main-menu">
                             <li id="menu-item-2317" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-2317"><a routerLink="/">Home</a>
                                 <!-- <ul class="sub-menu">
@@ -62,7 +64,7 @@
                             </li>
                             <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2310"><a routerLink="about">About Us</a>
                             </li>
-                            <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2310"><a routerLink="galary">Galary</a>
+                            <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2310"><a href="http://gallery.housix.in/">Galary</a>
                             </li>
                             <li id="menu-item-2311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2311"><a routerLink="project">Projects</a>
                              
@@ -85,6 +87,7 @@
                             <li id="menu-item-2445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2445"><a routerLink="sign">signup</a>
                             </li>
                         </ul>
+                        </div>
                     </nav>
 
                 </div>
@@ -93,24 +96,65 @@
 
 
     </div>
-</div>
+
 
 
 
 </header>
 
+</div>
 
 
 
 
 
+
+
+    <!-- <div id="black">
+        <ul id="ul" >
+                                   
+            <li id="li"><a  style="color: ghostwhite;" routerLink="/">Home</a> </li>
+            <li id="li" ><a style="color: ghostwhite;"  routerLink="about">About Us</a> </li>
+            <li id="li" ><a style="color: ghostwhite;"  routerLink="galary">Galary</a> </li>
+            <li id="li" ><a  style="color: ghostwhite;" routerLink="project">Projects</a> </li>
+            <li id="li"><a  style="color: ghostwhite;" href="blog">Blog</a> </li> 
+            <li id="li"><a style="color: ghostwhite;" routerLink="contact">Contact-us</a> </li>
+            <li id="li"><a  style="color: ghostwhite;" routerLink="sign">signup</a></li>
+           
+        </ul>
+    </div>  -->
+
+
+
+<!-- <div class="black">
+    <ul>
+      <li>link</li>
+      <li>link</li>
+      <li>link</li>
+      <li>link</li>
+    </ul>
+  </div> -->
 
   
   <!-- mobile -->
   <div id="nav1">
-    <header class="prague-header sticky-mobile-menu light absolute  simple">
+    <header  class="prague-header  sticky-menu sticky-mobile-menu light absolute  simple">
        
+        <div class="prague-logo">
+            <a routerLink="/">
+                <img width="200" height="35" src='assets/logo/Logo.svg' class="image_logo" alt="" loading="lazy" /> </a>
+        </div>
+
+    </header>
     
+</div>
+<div id="nav1">
+<header  class="prague-header  sticky-menu sticky-mobile-menu light absolute  simple">
+    <div class="prague-logo">
+   
+            <img style="opacity: 0;" width="250" height="35" src='' class="image_logo" alt="" loading="lazy" /> 
+    </div>
+
         <div class="prague-header-wrapper">
     
                 <div class="pargue-navigation-wrapper">
@@ -126,13 +170,15 @@
                          
                          
                          <nav *ngIf="display" >
-                                <ul class="main-menu" style=" display: flexbox; text-align-last: right; ">
+                                <ul  class="main-menu sidebar" style=" display: flexbox; ">
                                    
                                     <li ><a  style="color: ghostwhite;" routerLink="/">Home</a> </li>
                                     <li  ><a style="color: ghostwhite;"  routerLink="about">About Us</a> </li>
-                                    <li  ><a style="color: ghostwhite;"  routerLink="galary">Galary</a> </li>
+                                    <li  ><a style="color: ghostwhite;"  href="http://gallery.housix.in/">Galary</a> </li>
                                     <li ><a  style="color: ghostwhite;" routerLink="project">Projects</a> </li>
                                     <li ><a  style="color: ghostwhite;" href="blog">Blog</a> </li> 
+                                    <li ><a style="color: ghostwhite;" routerLink="contact">Contact-us</a>
+                                    </li>
                                     <li ><a  style="color: ghostwhite;" routerLink="sign">signup</a></li>
                                    
                                 </ul>
@@ -145,10 +191,8 @@
     
     
         </div>
-    
-    
-    
-    
     </header>
     
-  </div>
+    </div>
+    
+  

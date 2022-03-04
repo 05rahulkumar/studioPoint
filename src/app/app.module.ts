@@ -23,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
  import { SignupComponent } from './signup/signup.component';
  import {MatToolbarModule} from '@angular/material/toolbar';
+import { DesgnComponent } from './desgn/desgn.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ProjectComponent,
     ContactComponent,
      SignupComponent,
+     DesgnComponent,
  
     //GalaryBladeComponent
   ],
