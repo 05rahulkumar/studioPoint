@@ -1,15 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
+/*  body { height: 100%; } */
 /* h1{
   line-height: 56px;
     font-size: 54px !important
 } */
 .btn-primary-housix{
     width: 30%;
-    background-color:#e54a20; /* Green */
+    background-color:#e54a20; 
     border: none;
    color: white;
    padding: 15px 32px;

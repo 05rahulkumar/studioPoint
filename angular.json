@@ -36,7 +36,9 @@
               "src/assets/js/imageLoaded.js",
               "src/assets/js/js_partion.js" ,
               "src/assets/js/animation.js",
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/js2/nav.js"
             
 
             ]
