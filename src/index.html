@@ -659,6 +659,14 @@
 
     <style>
         /**-------------------------My animation starts here-------------------------*/
+        #web{
+            display: block;
+        }
+        @media only screen and (max-width:1020px) {
+        #web{
+            display: none;
+        }
+        }
      
         .realbody {
             background-color: red;
@@ -675,7 +683,7 @@
 
         .sandpit {
             width: 100%;
-            height: 100%;
+            height: 7%;
             background-color: #EEE;
             z-index: 0;
             overflow: hidden;
@@ -765,7 +773,123 @@
     </style>
 
 <!-- bricks construction mobile view -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/js2/construction2.js">
+</script>
 
+<style>
+    /**-------------------------My animation starts here-------------------------*/
+    #web1{
+            display: none;
+        }
+        @media only screen and (max-width:720px) {
+        #web1{
+            display: block;
+        }
+        }
+    .real {
+        background-color: red;
+        z-index: 0;
+    }
+
+    .backgroundfor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 1%;
+    }
+
+    .sand {
+        width: 100%;
+        height: 5%;
+        background-color: #EEE;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .bric {
+        position: absolute;
+        z-index: 0;
+        height: 5%;
+        width: 12.5%;
+        background-color: #f73c4c;
+        border-color: #FFFFFF;
+        border-style: solid;
+        border-width: 2px;
+        margin-top: -50%;
+    }
+
+    .oddbri1 {
+        margin-left: 0%;
+    }
+
+    .oddbri2 {
+        margin-left: 12.5%;
+    }
+
+    .oddbri3 {
+        margin-left: 25%;
+    }
+
+    .oddbri4 {
+        margin-left: 37.5%;
+    }
+
+    .oddbri5 {
+        margin-left: 50%;
+    }
+
+    .oddbri6 {
+        margin-left: 62.5%;
+    }
+
+    .oddbri7 {
+        margin-left: 75%;
+    }
+
+    .oddbri8 {
+        margin-left: 87.5%;
+    }
+
+    .evenbri1 {
+        margin-left: -6.25%;
+    }
+
+    .evenbri2 {
+        margin-left: 6.25%;
+    }
+
+    .evenbri3 {
+        margin-left: 18.75%;
+    }
+
+    .evenbri4 {
+        margin-left: 31.25%;
+    }
+
+    .evenbri5 {
+        margin-left: 43.75%;
+    }
+
+    .evenbri6 {
+        margin-left: 56.25%;
+    }
+
+    .evenbri7 {
+        margin-left: 68.75%;
+    }
+
+    .evenbri8 {
+        margin-left: 81.25%;
+    }
+
+    .evenbri9 {
+        margin-left: 93.75%;
+    }
+
+    /**-------------------------My animation ends here-------------------------*/
+</style>
 
 
 

@@ -1,32 +1,32 @@
 $(document).ready(function my(){
-  $(".backgroundfor").addClass("sandpit");
+  $(".backgroundfor").addClass("sand");
       for(var i=9;i>0;i-=2){
               var timeout=10 - i;
-              var temp1 = '<div' + ' id="0' + i +'brick" ' + 'class="oddbrick1 brick" />';
-              var temp2 = '<div' + ' id="1' + i +'brick" ' + 'class="oddbrick2 brick" />';
-              var temp3 = '<div' + ' id="2' + i +'brick" ' + 'class="oddbrick3 brick" />';
-              var temp4 = '<div' + ' id="3' + i +'brick" ' + 'class="oddbrick4 brick" />';
-              var temp5 = '<div' + ' id="4' + i +'brick" ' + 'class="oddbrick5 brick" />';
-              var temp6 = '<div' + ' id="5' + i +'brick" ' + 'class="oddbrick6 brick" />';
-              var temp7 = '<div' + ' id="6' + i +'brick" ' + 'class="oddbrick7 brick" />';
-              var temp8 = '<div' + ' id="7' + i +'brick" ' + 'class="oddbrick8 brick" />';
+              var temp1 = '<div' + ' id="0' + i +'bric" ' + 'class="oddbri1 brick" />';
+              var temp2 = '<div' + ' id="1' + i +'bric" ' + 'class="oddbri2 brick" />';
+              var temp3 = '<div' + ' id="2' + i +'bric" ' + 'class="oddbri3 brick" />';
+              var temp4 = '<div' + ' id="3' + i +'bric" ' + 'class="oddbri4 brick" />';
+              var temp5 = '<div' + ' id="4' + i +'bric" ' + 'class="oddbri5 brick" />';
+              var temp6 = '<div' + ' id="5' + i +'bric" ' + 'class="oddbri6 brick" />';
+              var temp7 = '<div' + ' id="6' + i +'bric" ' + 'class="oddbri7 brick" />';
+              var temp8 = '<div' + ' id="7' + i +'bric" ' + 'class="oddbri8 brick" />';
               var pos = (i*10) + 'vh';
-              $(".sandpit").append(temp1);
-              $(".sandpit").append(temp2);
-              $(".sandpit").append(temp3);
-              $(".sandpit").append(temp4);
-              $(".sandpit").append(temp5);
-              $(".sandpit").append(temp6);
-              $(".sandpit").append(temp7);
-              $(".sandpit").append(temp8);
-              var selectbrick1 = '#0' + i + 'brick';
-              var selectbrick2 = '#1' + i + 'brick';
-              var selectbrick3 = '#2' + i + 'brick';
-              var selectbrick4 = '#3' + i + 'brick';
-              var selectbrick5 = '#4' + i + 'brick';
-              var selectbrick6 = '#5' + i + 'brick';
-              var selectbrick7 = '#6' + i + 'brick';
-              var selectbrick8 = '#7' + i + 'brick';
+              $(".sand").append(temp1);
+              $(".sand").append(temp2);
+              $(".sand").append(temp3);
+              $(".sand").append(temp4);
+              $(".sand").append(temp5);
+              $(".sand").append(temp6);
+              $(".sand").append(temp7);
+              $(".sand").append(temp8);
+              var selectbrick1 = '#0' + i + 'bric';
+              var selectbrick2 = '#1' + i + 'bric';
+              var selectbrick3 = '#2' + i + 'bric';
+              var selectbrick4 = '#3' + i + 'bric';
+              var selectbrick5 = '#4' + i + 'bric';
+              var selectbrick6 = '#5' + i + 'bric';
+              var selectbrick7 = '#6' + i + 'bric';
+              var selectbrick8 = '#7' + i + 'bric';
               var selection = selectbrick1 + ',' + selectbrick2 + ',' + selectbrick3 + ',' + selectbrick4 + ',' + selectbrick5 + ',' + selectbrick6 + ',' + selectbrick7
                + ',' + selectbrick8;
               $(selection).animate({
@@ -35,34 +35,34 @@ $(document).ready(function my(){
       }
       for(var i=8;i>=0;i-=2){
               var timeout=10 - i;
-              var temp1 = '<div' + ' id="0' + i +'brick" ' + 'class="evenbrick1 brick" />';
-              var temp2 = '<div' + ' id="1' + i +'brick" ' + 'class="evenbrick2 brick" />';
-              var temp3 = '<div' + ' id="2' + i +'brick" ' + 'class="evenbrick3 brick" />';
-              var temp4 = '<div' + ' id="3' + i +'brick" ' + 'class="evenbrick4 brick" />';
-              var temp5 = '<div' + ' id="4' + i +'brick" ' + 'class="evenbrick5 brick" />';
-              var temp6 = '<div' + ' id="5' + i +'brick" ' + 'class="evenbrick6 brick" />';
-              var temp7 = '<div' + ' id="6' + i +'brick" ' + 'class="evenbrick7 brick" />';
-              var temp8 = '<div' + ' id="7' + i +'brick" ' + 'class="evenbrick8 brick" />';
-              var temp9 = '<div' + ' id="8' + i +'brick" ' + 'class="evenbrick9 brick" />';
+              var temp1 = '<div' + ' id="0' + i +'bric" ' + 'class="evenbri1 brick" />';
+              var temp2 = '<div' + ' id="1' + i +'bric" ' + 'class="evenbri2 brick" />';
+              var temp3 = '<div' + ' id="2' + i +'bric" ' + 'class="evenbri3 brick" />';
+              var temp4 = '<div' + ' id="3' + i +'bric" ' + 'class="evenbri4 brick" />';
+              var temp5 = '<div' + ' id="4' + i +'bric" ' + 'class="evenbri5 brick" />';
+              var temp6 = '<div' + ' id="5' + i +'bric" ' + 'class="evenbri6 brick" />';
+              var temp7 = '<div' + ' id="6' + i +'bric" ' + 'class="evenbri7 brick" />';
+              var temp8 = '<div' + ' id="7' + i +'bric" ' + 'class="evenbri8 brick" />';
+              var temp9 = '<div' + ' id="8' + i +'bric" ' + 'class="evenbri9 brick" />';
               var pos = (i*10) + 'vh';
-              $(".sandpit").append(temp1);
-              $(".sandpit").append(temp2);
-              $(".sandpit").append(temp3);
-              $(".sandpit").append(temp4);
-              $(".sandpit").append(temp5);
-              $(".sandpit").append(temp6);
-              $(".sandpit").append(temp7);
-              $(".sandpit").append(temp8);
-              $(".sandpit").append(temp9);
-              var selectbrick1 = '#0' + i + 'brick';
-              var selectbrick2 = '#1' + i + 'brick';
-              var selectbrick3 = '#2' + i + 'brick';
-              var selectbrick4 = '#3' + i + 'brick';
-              var selectbrick5 = '#4' + i + 'brick';
-              var selectbrick6 = '#5' + i + 'brick';
-              var selectbrick7 = '#6' + i + 'brick';
-              var selectbrick8 = '#7' + i + 'brick';
-              var selectbrick9 = '#8' + i + 'brick';
+              $(".sand").append(temp1);
+              $(".sand").append(temp2);
+              $(".sand").append(temp3);
+              $(".sand").append(temp4);
+              $(".sand").append(temp5);
+              $(".sand").append(temp6);
+              $(".sand").append(temp7);
+              $(".sand").append(temp8);
+              $(".sand").append(temp9);
+              var selectbrick1 = '#0' + i + 'bric';
+              var selectbrick2 = '#1' + i + 'bric';
+              var selectbrick3 = '#2' + i + 'bric';
+              var selectbrick4 = '#3' + i + 'bric';
+              var selectbrick5 = '#4' + i + 'bric';
+              var selectbrick6 = '#5' + i + 'bric';
+              var selectbrick7 = '#6' + i + 'bric';
+              var selectbrick8 = '#7' + i + 'bric';
+              var selectbrick9 = '#8' + i + 'bric';
               var selection = selectbrick1 + ',' + selectbrick2 + ',' + selectbrick3 + ',' + selectbrick4 + ',' + selectbrick5 + ',' + selectbrick6 + ',' + selectbrick7
                + ',' + selectbrick8 + ',' + selectbrick9;
               $(selection).animate({
@@ -99,10 +99,10 @@ $(document).ready(function my(){
       setTimeout(function(){
           //Should go left.
           for(var i=0;i<10;i++){
-              var selectbrick1 = '#0' + i + 'brick';
-              var selectbrick2 = '#1' + i + 'brick';
-              var selectbrick3 = '#2' + i + 'brick';
-              var selectbrick4 = '#3' + i + 'brick';
+              var selectbrick1 = '#0' + i + 'bric';
+              var selectbrick2 = '#1' + i + 'bric';
+              var selectbrick3 = '#2' + i + 'bric';
+              var selectbrick4 = '#3' + i + 'bric';
               var selection = selectbrick1 + ',' + selectbrick2 + ',' + selectbrick3 + ',' + selectbrick4;					
               $(selection).animate({
                   'left':'-100vw'
@@ -110,20 +110,20 @@ $(document).ready(function my(){
           }
           //Should go right.
           for(var i=0;i<10;i++){
-              var selectbrick1 = '#4' + i + 'brick';
-              var selectbrick2 = '#5' + i + 'brick';
-              var selectbrick3 = '#6' + i + 'brick';
-              var selectbrick4 = '#7' + i + 'brick';
+              var selectbrick1 = '#4' + i + 'bric';
+              var selectbrick2 = '#5' + i + 'bric';
+              var selectbrick3 = '#6' + i + 'bric';
+              var selectbrick4 = '#7' + i + 'bric';
               if(i%2==0){	
-                  selectbrick4 += ',#8' + i + 'brick';
+                  selectbrick4 += ',#8' + i + 'bric';
               }
               selection = selectbrick1 + ',' + selectbrick2 + ',' + selectbrick3 + ',' + selectbrick4;
               $(selection).animate({
                   'left':'100vw'
               },5000);
           }
-          $('.sandpit').fadeOut(4000,function(){
-              $('backgroundfor').removeClass('.sandpit');
+          $('.sand').fadeOut(4000,function(){
+              $('backgroundfor').removeClass('.sand');
           });
       },11000);
 });
