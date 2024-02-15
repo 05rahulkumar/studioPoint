@@ -24,6 +24,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
  import { SignupComponent } from './signup/signup.component';
  import {MatToolbarModule} from '@angular/material/toolbar';
 import { DesgnComponent } from './desgn/desgn.component';
+import { InteriorComponent } from './interior/interior.component';
+import { HomepageFormComponent } from './homepage-form/homepage-form.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +41,9 @@ import { DesgnComponent } from './desgn/desgn.component';
     ContactComponent,
      SignupComponent,
      DesgnComponent,
+     InteriorComponent,
+     HomepageFormComponent,
+  
  
     //GalaryBladeComponent
   ],

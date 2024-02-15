@@ -1,0 +1,231 @@
+
+.st0 {
+    fill: #656564 !important;
+}
+
+.st1 {
+    fill: #ED1C24 !important;
+}
+
+.st2 {
+    fill: #636462 !important;
+}
+
+.st3 {
+    fill: #5B6065 !important;
+}
+
+.st4 {
+    fill: #E61E27 !important;
+}
+
+.st5 {
+    fill: #010101 !important;
+}
+
+.st6 {
+    fill: none !important;
+    stroke: #010101 !important;
+    stroke-width: 4 !important;
+    stroke-miterlimit: 10 !important;
+}
+
+.home-interiors-subdiv {
+    padding: 40px 45px 20px 45px !important;
+    background-color: white !important;
+    text-align: center !important;
+}
+
+.squarePartner_interiors {
+    padding: 0px 45px 0px 45px !important;
+}
+
+.interior-row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    text-align: center !important;
+    margin: 36px 0px !important;
+}
+
+.interiors {
+    width: 17% !important;
+    display: inline-block !important;
+    position: relative !important;
+    min-height: 1px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    vertical-align: top !important;
+}
+
+.home-interiors-subdiv .content {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #404040 !important;
+    margin: 30px 0px !important;
+}
+
+.home-interiors-subdiv .content .icon-container svg {
+    width: 100px !important;
+    height: 65px !important;
+}
+
+.home-interiors-subdiv .content .icon-container {
+    display: inline-block !important;
+    width: 100px !important;
+    height: 65px !important;
+}
+
+.home-int-heading {
+    color: #222222 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    letter-spacing: 0 !important;
+    line-height: 29px !important;
+    text-align: center !important;
+}
+
+.interior-name {
+    color: #222222 !important;
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+    line-height: 17px !important;
+    text-align: center !important;
+    margin: 0px !important;
+    margin-top: 12px !important;
+    
+}
+
+.bookfreeConsultation_btn {
+    text-align: center !important;
+}
+
+.bookfreeConsultation_btn button {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    letter-spacing: 0 !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    background-color: #E71C24 !important;
+    padding: 15px 30px !important;
+    text-transform: uppercase !important;
+}
+
+.cityInteriror {
+    padding: 0px 5% 40px !important;
+}
+
+@media(max-width:345px ) {
+    .bookfreeConsultation_btn button {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .interior-row {
+        text-align: start !important;
+    }
+
+    .home-interiors-div {
+        padding: 0 !important;
+        background-color: white !important;
+    }
+
+    .home-interiors-subdiv {
+        padding: 20px 15px 0px 15px !important;
+        background-color: white !important;
+        text-align: center !important;
+    }
+
+    .squarePartner_interiors {
+        padding: 0px 25px 0px 25px !important;
+    }
+
+    .home-int-heading {
+        margin: 15px 0px !important;
+        color: #222222 !important ;
+        font-size: 24px !important;
+        font-weight: bold !important;
+        letter-spacing: 0 !important;
+        line-height: 29px !important;
+        text-align: center !important;
+    }
+
+    .interiors {
+        width: 33% !important;
+        display: inline-block !important;
+        position: relative !important;
+        min-height: 1px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .home-interiors-subdiv .content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin-bottom: 0px !important;
+    }
+
+    .interior-name {
+        padding: 5px !important;
+        line-height: 17px !important;
+    }
+
+    .home-interiors-div .btn {
+        padding: 15px 25px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+
+    .home-interiors-div .home-interiors-subdiv .btn:hover {
+        color: white !important;
+    }
+
+    .btn-orange {
+        width: 100% !important;
+        padding: 14px !important;
+        background-color: #ff4713 !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+        font-size: 14px !important;
+        text-transform: uppercase !important;
+        line-height: 20px !important;
+        -webkit-font-smoothing: antialiased !important;
+        display: inline-block !important;
+        text-align: center !important;
+        white-space: nowrap !important;
+        vertical-align: middle !important;
+        user-select: none !important;
+        border: 1px solid transparent !important;
+        font-weight: 500 !important;
+    }
+
+    .bookfreeConsultation_btn button {
+        padding: 15px 10px !important;
+    }
+
+    .popup-div {
+        margin: 5% !important;
+    }
+}
+
+
+
+/* button design */
+#btn-primary-housix{
+    /* width: 30%; */
+    background-color:#e54a20; /* Green */
+    border: none;
+   color: white;
+   /* padding: 15px 32px; */
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   /* margin: 5px 20px; */
+   cursor: pointer;
+   border-radius: 25px;
+  }

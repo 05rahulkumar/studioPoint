@@ -16,7 +16,34 @@ a{
     #nav1{
         display: block;
     }
+    span.scroll{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5rem;
+      padding: 24px 30px;
+      z-index: 300;
+      background-color: black;
+      -webkit-transition: background-color .3s ease-in,top .6s linear;
+      transition: background-color .3s ease-in,top .6s linear;
+       /* background-image: url('src/assets/logo/White-Logo.svg'); */
+      background-image: url('/src/assets/logo/White-Vertical-Logo.svg');
+      background-repeat: no-repeat;
+      background-size: 200px 40px;
+      background-position: left; 
+      background-origin: content-box;
     
+     }
 }
 
 
@@ -38,7 +65,7 @@ a{
     /* margin: 0;
     padding: 0;
     width: 200px; */
-    background-color: #500d0d;
+    background-color: #e54a20;;
     /* position: fixed; */
     /* height: 100%; */
     overflow: auto;
@@ -58,7 +85,7 @@ a{
   
   .sidebar a:hover:not(.active) {
     background-color: #555;
-    color: white;
+    color: whitesmoke;
   }
   
 
@@ -124,9 +151,10 @@ a{
   background-color: black;
   -webkit-transition: background-color .3s ease-in,top .6s linear;
   transition: background-color .3s ease-in,top .6s linear;
-   background-image: url('src/assets/logo/Logo.svg');
+   /* background-image: url('src/assets/logo/White-Logo.svg'); */
+  background-image: url('src/assets/logo/White-Logo.svg');
   background-repeat: no-repeat;
-  background-size: 200px 55px;
+  background-size: 200px 40px;
   background-position: left; 
   background-origin: content-box;
 

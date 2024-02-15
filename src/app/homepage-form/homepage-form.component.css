@@ -1,0 +1,51 @@
+
+#bfcContainer .allow-dropdown.intl-tel-input {
+    display: block;
+}
+
+#bfcContainer .intl-tel-input .country-list {
+    white-space: inherit;
+    width: 100%;
+}
+
+#bfcContainer .under-border .intl-tel-input.allow-dropdown .selected-flag {
+    display: inline-flex;
+    align-items: center;
+    top: 0px;
+    border-bottom: 0px solid rgba(71, 74, 80, 0.2);
+}
+
+#bfcContainer .boxed-border .intl-tel-input.allow-dropdown .selected-flag {
+    justify-content: center;
+}
+
+#bfcContainer .intl-tel-input .country-list .country {
+    padding: 10px 5px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#bfcContainer .intl-tel-input.allow-dropdown .flag-container:hover .selected-flag {
+    background: unset;
+}
+
+#bfcContainer .iti-flag {
+    min-height: 14px;
+    max-height: 14px;
+    background-color: unset;
+    box-shadow: unset;
+}
+
+@media (max-width: 768px) {
+    #bfcContainer .intl-tel-input.allow-dropdown .selected-flag {
+        top: 1px;
+    }
+
+    ;
+
+    .divider {
+        height: unset;
+        background: unset;
+    }
+}
