@@ -1,11 +1,47 @@
 <!-- section 1 -->
+
+
+
+<div class="demo-banner-wrap view h-35">
+    <div class="tourism-view"></div>
+    <div class="flight"></div>
+    <div class="train"></div>
+    <div class="bus"></div>
+    <div class="cruise"></div>
+    <div class="background">
+        <div class="water"></div>
+    </div><svg>
+        <filter height="100%" id="turbulence" width="100%" x="0" y="0">
+            <feTurbulence baseFrequency="0.02 0.05" id="sea-filter" numOctaves="3" seed="2"></feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="20"></feDisplacementMap>
+            <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1"
+                repeatCount="indefinite" values="0.02 0.06;0.04 0.08;0.02 0.06"></animate>
+        </filter>
+    </svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="mb-5">
     <div class="wpb_column vc_column_container vc_col-sm-12 ">
 
         <div class="vc_column-inner ">
             <div class="wpb_wrapper">
                 <!-- website -->
-            
+
                 <section class="container-fluid top-banner no-padd big fullheight light s-back-switch main"
                     style="background-image: url('assets/image/background.jpg'); min-height: 100vh;">
                     <span class="overlay"></span> <img class="s-img-switch" alt="" style="display: none;">
@@ -27,8 +63,8 @@
                     <div class="top-banner-cursor"></div>
                 </section>
 
-<!-- mobile -->
-<!-- <div id="main1">
+                <!-- mobile -->
+                <!-- <div id="main1">
     <section class="container-fluid top-banner no-padd big fullheight light s-back-switch main"
         style="background-image: url('assets/image/background.jpg'); min-height: 50vh; width: 100%;">
         <span class="overlay"></span> <img class="s-img-switch" alt="" style="display: none;">
@@ -50,7 +86,7 @@
         <div class="top-banner-cursor"></div>
     </section>
 </div> -->
-<!-- end mobile -->
+                <!-- end mobile -->
             </div>
         </div>
     </div>
@@ -68,12 +104,12 @@
 <br>
 <!-- section 2 -->
 <section class="mb-5">
-<div id="web">
-    <div class="realbody" style="background-color:#EEE">
-        <!-- <img src="construction-copy.jpg" alt="Some image" width="100%" height="100%"/> -->
-    </div>
-    <div class="backgroundforanimation">
-</div>
+    <div id="web">
+        <div class="realbody" style="background-color:#EEE">
+            <!-- <img src="construction-copy.jpg" alt="Some image" width="100%" height="100%"/> -->
+        </div>
+        <div class="backgroundforanimation">
+        </div>
     </div>
     <!-- mobile -->
     <div id="web1">
@@ -81,8 +117,8 @@
             <!-- <img src="construction-copy.jpg" alt="Some image" width="100%" height="100%"/> -->
         </div>
         <div class="backgroundfor">
-    </div>
         </div>
+    </div>
 </section>
 <!-- section 3 -->
 
@@ -144,33 +180,36 @@
 <!-- start of third section -->
 <section class="mb-5 py-5  position-relative section2Bg">
     <!-- website -->
-   <div id="b">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <img src="assets/images/desgi.png" alt="asset" class="w-100 h-100">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="my-2">
-                    <h2 class="title">Best Interior Designing Company!</h2>
-                </div>
-                <div class="my-2">
-                    <div class="description">
-                        <p>We're following all protocols to ensure your safety and vaccination drives are underway to
-                            ensure our employees are ready to meet you safely.</p>
-                        <p>No more dreaming about your interiors. Livspace Vesta brings together award-winning
-                            designers, service partners and brands, to help you take your home interiors from dream to
-                            reality.</p>
+    <div id="b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <img src="assets/images/desgi.png" alt="asset" class="w-100 h-100">
                     </div>
                 </div>
-                <div class="position-absolute" style="top:0px;right:-250px;height:250px;overflow:hidden;width:250px">
-                    <img src="assets/image/designSide.gif" alt="" class="w-50">
+                <div class="col-lg-6">
+                    <div class="my-2">
+                        <h2 class="title">Best Interior Designing Company!</h2>
+                    </div>
+                    <div class="my-2">
+                        <div class="description">
+                            <p>We're following all protocols to ensure your safety and vaccination drives are underway
+                                to
+                                ensure our employees are ready to meet you safely.</p>
+                            <p>No more dreaming about your interiors. Livspace Vesta brings together award-winning
+                                designers, service partners and brands, to help you take your home interiors from dream
+                                to
+                                reality.</p>
+                        </div>
+                    </div>
+                    <div class="position-absolute"
+                        style="top:0px;right:-250px;height:250px;overflow:hidden;width:250px">
+                        <img src="assets/image/designSide.gif" alt="" class="w-50">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- mobile -->
     <div id="b1">
@@ -187,20 +226,23 @@
                     </div>
                     <div class="my-2">
                         <div class="description">
-                            <p>We're following all protocols to ensure your safety and vaccination drives are underway to
+                            <p>We're following all protocols to ensure your safety and vaccination drives are underway
+                                to
                                 ensure our employees are ready to meet you safely.</p>
                             <p>No more dreaming about your interiors. Livspace Vesta brings together award-winning
-                                designers, service partners and brands, to help you take your home interiors from dream to
+                                designers, service partners and brands, to help you take your home interiors from dream
+                                to
                                 reality.</p>
                         </div>
                     </div>
-                    <div class="position-absolute" style="top:0px;right:-250px;height:250px;overflow:hidden;width:250px">
+                    <div class="position-absolute"
+                        style="top:0px;right:-250px;height:250px;overflow:hidden;width:250px">
                         <img src="assets/image/designSide.gif" alt="" class="w-50">
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </section>
 
 <!-- end of 3rd section -->
@@ -325,75 +367,76 @@
 <!-- section Experience -->
 <!-- website view -->
 <div id="exp">
-<section class="mb-5 p-5 sectiontech">
-    <!-- website -->
-  
-    <mat-grid-list cols="2" rowHeight="2:1">
-        <mat-grid-tile>
-            <div class="container ">
-                <h3 class="m"> See. Touch. Experience.</h3>
-                <h4 class="m" style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a look
-                    and feel of <br> what we do!</h4>
-                <a class="m a" href="">Let's meet <mat-icon class="t">arrow_forward</mat-icon></a>
+    <section class="mb-5 p-5 sectiontech">
+        <!-- website -->
 
-            </div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <img class="rounded" src="assets/images/exprience.png" alt="img" height="100%">
-        </mat-grid-tile>
-    </mat-grid-list>
+        <mat-grid-list cols="2" rowHeight="2:1">
+            <mat-grid-tile>
+                <div class="container ">
+                    <h3 class="m"> See. Touch. Experience.</h3>
+                    <h4 class="m" style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a
+                        look
+                        and feel of <br> what we do!</h4>
+                    <a class="m a" href="">Let's meet <mat-icon class="t">arrow_forward</mat-icon></a>
 
-
-<!-- mobile -->
-<div id="exp1">
-    <mat-grid-list cols="1" rowHeight="2:2">
-        <mat-grid-tile>
-            <div class="text-center ">
-                <h3 > See. Touch. Experience.</h3>
-                <h4  style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a look
-                    and feel of <br> what we do!</h4>
-                <a class="a" href="">Let's meet <mat-icon class="t">arrow_forward</mat-icon></a>
-
-            </div>
-        </mat-grid-tile>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <img class="rounded" src="assets/images/exprience.png" alt="img" height="100%">
+            </mat-grid-tile>
         </mat-grid-list>
-        <mat-grid-list cols="1" rowHeight="2:1">
-        <mat-grid-tile>
-           
-            <img class="rounded" src="assets/images/exprience.png" alt="img" height="250rem">
-        </mat-grid-tile>
-    </mat-grid-list>
-</div>
-</section>
+
+
+        <!-- mobile -->
+        <div id="exp1">
+            <mat-grid-list cols="1" rowHeight="2:2">
+                <mat-grid-tile>
+                    <div class="text-center ">
+                        <h3> See. Touch. Experience.</h3>
+                        <h4 style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a look
+                            and feel of <br> what we do!</h4>
+                        <a class="a" href="">Let's meet <mat-icon class="t">arrow_forward</mat-icon></a>
+
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+            <mat-grid-list cols="1" rowHeight="2:1">
+                <mat-grid-tile>
+
+                    <img class="rounded" src="assets/images/exprience.png" alt="img" height="250rem">
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+    </section>
 </div>
 <!-- section 6 -->
 <!-- section Experience -->
 <!-- mobile view -->
 <div id="exp1">
     <section class="mb-5 p-3 sectiontech">
-      
-    <!-- mobile -->
- 
+
+        <!-- mobile -->
+
         <mat-grid-list cols="1" rowHeight="2:1.3">
             <mat-grid-tile>
                 <div class="text-center ">
-                    <h3 > See. Touch. Experience.</h3>
-                    <h4  style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a look
+                    <h3> See. Touch. Experience.</h3>
+                    <h4 style="color: rgb(102, 98, 98) !important;">Come to our Experience Centre and get a look
                         and feel of <br> what we do!</h4>
                     <a class="a" href="">Let's meet <mat-icon class="t">arrow_forward</mat-icon></a>
-    
+
                 </div>
             </mat-grid-tile>
-            </mat-grid-list>
-            <mat-grid-list cols="1" rowHeight="2:1.4">
+        </mat-grid-list>
+        <mat-grid-list cols="1" rowHeight="2:1.4">
             <mat-grid-tile>
-               
+
                 <img class="rounded" src="assets/images/exprience.png" alt="img" height="250rem">
             </mat-grid-tile>
         </mat-grid-list>
-   
+
     </section>
-    </div>
+</div>
 <!-- technology sections -->
 <!-- <section class=" sectiontech">
     <div class="container">
@@ -573,7 +616,7 @@
 </section>
 <!-- section 8 -->
 <section class="mb-5">
-   
+
     <div class="container ">
         <div class="w-100">
             <div class="project-details-slider-3d w-100">
@@ -584,9 +627,9 @@
         </div>
     </div>
 
-<!-- mobile -->
+    <!-- mobile -->
 
-<!-- <div id="frame1">
+    <!-- <div id="frame1">
     <div class="container ">
         <div class="w-100 h-100">
             <div class="project-details-slider-3d w-100 h-75">
@@ -602,36 +645,40 @@
 <!-- section 9 -->
 <!-- customized service -->
 <section class="mb-5 pt-3">
-<div id="cust">   <div class="my-5 container">
-        <div class="text-center">
-            <h2 class="headline">Customized Service</h2>
+    <div id="cust">
+        <div class="my-5 container">
+            <div class="text-center">
+                <h2 class="headline">Customized Service</h2>
+            </div>
+            <div class="my-3 text-center">
+                <p>can't find that you are looking for? we will design your <br> home the way you like, keeping you
+                    needs
+                    and <br> budged in mind</p>
+            </div>
+            <div class="my-3 text-center">
+                <img class="w-50" src="assets/images/customized.svg" alt="">
+            </div>
+            <div class="my-2 text-center"> <button class="btn " id="btn-primary-housix">BOOK ONLINE
+                    CONSULTATION</button></div>
         </div>
-        <div class="my-3 text-center">
-            <p>can't find that you are looking for? we will design your <br> home the way you like, keeping you needs
-                and <br> budged in mind</p>
+    </div>
+    <!-- mobile -->
+    <div id="cust1">
+        <div class="my-5 ">
+            <div class="container">
+                <h2 class="headline text-center">Customized Service</h2>
+            </div>
+            <div class="my-3 text-center">
+                <p>can't find that you are looking for? we will design your home the way you like, keeping you needs
+                    and budged in mind</p>
+            </div>
+            <div class="my-3 text-center">
+                <img class="w-60" src="assets/images/customized.svg" alt="">
+            </div>
+            <div class="text-center"> <button class="btn " id="btn-primary-housix">BOOK ONLINE CONSULTATION</button>
+            </div>
         </div>
-        <div class="my-3 text-center">
-            <img class="w-50" src="assets/images/customized.svg" alt="">
-        </div>
-        <div class="my-2 text-center"> <button  class="btn " id="btn-primary-housix">BOOK ONLINE CONSULTATION</button></div>
     </div>
-</div>
-<!-- mobile -->
-<div id="cust1"> 
-      <div class="my-5 ">
-    <div class="container">
-        <h2 class="headline text-center">Customized Service</h2>
-    </div>
-    <div class="my-3 text-center">
-        <p>can't find that you are looking for? we will design your home the way you like, keeping you needs
-            and  budged in mind</p>
-    </div>
-    <div class="my-3 text-center">
-        <img class="w-60" src="assets/images/customized.svg" alt="">
-    </div>
-    <div class="text-center"> <button class="btn " id="btn-primary-housix">BOOK ONLINE CONSULTATION</button></div>
-</div>
-</div>
 </section>
 
 <!-- section 10 -->
@@ -1257,46 +1304,46 @@
 <section class="mb-5 sectiontech">
     <!-- website view -->
     <div class="container" id="hap">
-    <mat-grid-list cols="2" rowHeight="2:1.4">
-        <mat-grid-tile>
-            <img  src="assets/images/meeting.svg" alt="" width="80%" style="padding-left: 10rem;">
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <div  style="padding-right: 10rem;"> 
-                <h2>  
-                    WE MAKE</h2>
-                <h3 style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">
- 
-                    Our Customer</h3>
-                <h2> 
-    
-                    Happy</h2>
-            </div>
+        <mat-grid-list cols="2" rowHeight="2:1.4">
+            <mat-grid-tile>
+                <img src="assets/images/meeting.svg" alt="" width="80%" style="padding-left: 10rem;">
             </mat-grid-tile>
-</mat-grid-list>
-</div>
-<!-- mobile view -->
-<div class="container" id="hap1">
-    <mat-grid-list cols="1" rowHeight="2:1.4">
-        <mat-grid-tile>
-            <img  src="assets/images/meeting.svg" alt="" width="80%" >
-        </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="padding-right: 10rem;">
+                    <h2>
+                        WE MAKE</h2>
+                    <h3 style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">
+
+                        Our Customer</h3>
+                    <h2>
+
+                        Happy</h2>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <!-- mobile view -->
+    <div class="container" id="hap1">
+        <mat-grid-list cols="1" rowHeight="2:1.4">
+            <mat-grid-tile>
+                <img src="assets/images/meeting.svg" alt="" width="80%">
+            </mat-grid-tile>
         </mat-grid-list>
         <mat-grid-list cols="1" rowHeight="2:1.4">
-        <mat-grid-tile>
-            <div  > 
-                <h2>  
-                    WE MAKE</h2>
-                <h3 style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">
- 
-                    Our Customer</h3>
-                <h2> 
-    
-                    Happy</h2>
-            </div>
+            <mat-grid-tile>
+                <div>
+                    <h2>
+                        WE MAKE</h2>
+                    <h3 style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">
+
+                        Our Customer</h3>
+                    <h2>
+
+                        Happy</h2>
+                </div>
             </mat-grid-tile>
-</mat-grid-list>
-</div>
+        </mat-grid-list>
+    </div>
 </section>
 <br><br>
 
@@ -1304,30 +1351,31 @@
 <!-- section Our Team Friend -->
 
 <section class="mb-5">
-<div class="fri">
-    <div class="container" >
-        <h3 class="desn">Here are just a few of</h3>
-        <h4 class="de" style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">Our Friends</h4>
-    </div>
-<!-- website view -->
-    <div class="container  underline-0" >
-        <mat-tab-group border-bottom-0 mat-align-tabs="end">
-            <!-- dynamicHeight  -->
-            <mat-tab label="Organization"> <br>
-                <div class="container ">
-                    <mat-grid-list cols="4">
-                        <mat-grid-tile><img src="assets/images/pizza.svg" alt=""></mat-grid-tile>
-                        <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
-                        <mat-grid-tile><img src="assets/images/pizza.svg" alt=""></mat-grid-tile>
-                        <mat-grid-tile><img src="assets/images/machine.svg" alt=""></mat-grid-tile>
-                    </mat-grid-list>
-                </div>
-            </mat-tab>
+    <div class="fri">
+        <div class="container">
+            <h3 class="desn">Here are just a few of</h3>
+            <h4 class="de" style=" color: #e54a20 !important; font-family: Sofia, sans-serif !important;">Our Friends
+            </h4>
+        </div>
+        <!-- website view -->
+        <div class="container  underline-0">
+            <mat-tab-group border-bottom-0 mat-align-tabs="end">
+                <!-- dynamicHeight  -->
+                <mat-tab label="Organization"> <br>
+                    <div class="container ">
+                        <mat-grid-list cols="4">
+                            <mat-grid-tile><img src="assets/images/pizza.svg" alt=""></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/pizza.svg" alt=""></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/machine.svg" alt=""></mat-grid-tile>
+                        </mat-grid-list>
+                    </div>
+                </mat-tab>
 
-            <mat-tab label="Technology"> <br><br>
-                <div class="container ">
-                    <!-- sectiontech -->
-                    <!-- <mat-grid-list cols="5" rowHeight="2:1">
+                <mat-tab label="Technology"> <br><br>
+                    <div class="container ">
+                        <!-- sectiontech -->
+                        <!-- <mat-grid-list cols="5" rowHeight="2:1">
           <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
           <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
           <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
@@ -1336,90 +1384,91 @@
          
         </mat-grid-list> -->
 
-                    <mat-grid-list cols="4" rowHeight="2:2">
+                        <mat-grid-list cols="4" rowHeight="2:2">
 
-                        <mat-grid-tile>
-                            <mat-card class="example-card mat-elevation-z0">
-                                <img mat-card-image height="100px" src="assets/images/autocad.jpg"
-                                    alt="Photo of a Shiba Inu">
-                                <div class="text-center">
-                                    <mat-card-title>Autocad</mat-card-title>
-                                    <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                                </div>
-                            </mat-card>
-                        </mat-grid-tile>
-
-
-                        <mat-grid-tile>
-                            <mat-card class="example-card mat-elevation-z0">
-                                <img mat-card-image height="100" src="assets/images/potoshop.png"
-                                    alt="Photo of a Shiba Inu">
-                                <div class="text-center">
-                                    <mat-card-title>Photoshop</mat-card-title>
-                                    <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                                </div>
-                            </mat-card>
-                        </mat-grid-tile>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="100px" src="assets/images/autocad.jpg"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <mat-card-title>Autocad</mat-card-title>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
 
-                        <mat-grid-tile>
-                            <mat-card class="example-card mat-elevation-z0">
-                                <img mat-card-image height="100" src="assets/images/sketchup.png"
-                                    alt="Photo of a Shiba Inu">
-                                <div class="text-center">
-                                    <mat-card-title>SketchUp</mat-card-title>
-                                    <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                                </div>
-                            </mat-card>
-                        </mat-grid-tile>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="100" src="assets/images/potoshop.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <mat-card-title>Photoshop</mat-card-title>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
 
-                        <mat-grid-tile>
-                            <mat-card class="example-card mat-elevation-z0">
-                                <img mat-card-image height="100" src="assets/images/vray.png"
-                                    alt="Photo of a Shiba Inu">
-                                <div class="text-center">
-                                    <mat-card-title>V ray</mat-card-title>
-                                    <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                                </div>
-                            </mat-card>
-                        </mat-grid-tile>
-
-                    </mat-grid-list>
-
-                    <br>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="100" src="assets/images/sketchup.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <mat-card-title>SketchUp</mat-card-title>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
 
-                </div>
-            </mat-tab>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="100" src="assets/images/vray.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <mat-card-title>V ray</mat-card-title>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
-        </mat-tab-group>
+                        </mat-grid-list>
+
+                        <br>
+
+
+                    </div>
+                </mat-tab>
+
+            </mat-tab-group>
+        </div>
     </div>
-    </div>
-<!-- mobie view -->
-<div class="fri1">
-<div class="container text-center" >
-    <h3 id="desn">Here are just a few of</h3>
-    <h4 style="padding-left: 10%; color: #e54a20 !important; font-family: Sofia, sans-serif !important;">Our Friends</h4>
-</div>
-<div class="container  underline-0" id="fr1">
-    <mat-tab-group border-bottom-0 mat-align-tabs="end">
-        <!-- dynamicHeight  -->
-        <mat-tab label="Organization"> <br>
-            <div class="container ">
-                <mat-grid-list cols="4">
-                    <mat-grid-tile><img src="assets/images/pizza.svg" alt="" height="90rem"></mat-grid-tile>
-                    <mat-grid-tile><img src="assets/images/tech.svg" alt="" height="90rem"></mat-grid-tile>
-                    <mat-grid-tile><img src="assets/images/pizza.svg" alt="" height="90rem"></mat-grid-tile>
-                    <mat-grid-tile><img src="assets/images/machine.svg" alt="" height="90rem"></mat-grid-tile>
-                </mat-grid-list>
-            </div>
-        </mat-tab>
+    <!-- mobie view -->
+    <div class="fri1">
+        <div class="container text-center">
+            <h3 id="desn">Here are just a few of</h3>
+            <h4 style="padding-left: 10%; color: #e54a20 !important; font-family: Sofia, sans-serif !important;">Our
+                Friends</h4>
+        </div>
+        <div class="container  underline-0" id="fr1">
+            <mat-tab-group border-bottom-0 mat-align-tabs="end">
+                <!-- dynamicHeight  -->
+                <mat-tab label="Organization"> <br>
+                    <div class="container ">
+                        <mat-grid-list cols="4">
+                            <mat-grid-tile><img src="assets/images/pizza.svg" alt="" height="90rem"></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/tech.svg" alt="" height="90rem"></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/pizza.svg" alt="" height="90rem"></mat-grid-tile>
+                            <mat-grid-tile><img src="assets/images/machine.svg" alt="" height="90rem"></mat-grid-tile>
+                        </mat-grid-list>
+                    </div>
+                </mat-tab>
 
-        <mat-tab label="Technology"> <br><br>
-            <div class="container ">
-                <!-- sectiontech -->
-                <!-- <mat-grid-list cols="5" rowHeight="2:1">
+                <mat-tab label="Technology"> <br><br>
+                    <div class="container ">
+                        <!-- sectiontech -->
+                        <!-- <mat-grid-list cols="5" rowHeight="2:1">
       <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
       <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
       <mat-grid-tile><img src="assets/images/tech.svg" alt=""></mat-grid-tile>
@@ -1428,67 +1477,67 @@
      
     </mat-grid-list> -->
 
-                <mat-grid-list cols="2" rowHeight="2:3">
+                        <mat-grid-list cols="2" rowHeight="2:3">
 
-                    <mat-grid-tile>
-                        <mat-card class="example-card mat-elevation-z0">
-                            <img mat-card-image height="30%"  src="assets/images/autocad.jpg"
-                                alt="Photo of a Shiba Inu">
-                            <div class="text-center">
-                                <p>Autocad</p>
-                                <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                            </div>
-                        </mat-card>
-                    </mat-grid-tile>
-
-
-                    <mat-grid-tile>
-                        <mat-card class="example-card mat-elevation-z0">
-                            <img mat-card-image height="5%" width="5%"   src="assets/images/potoshop.png"
-                                alt="Photo of a Shiba Inu">
-                            <div class="text-center">
-                                <p>Photoshop</p>
-                                <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                            </div>
-                        </mat-card>
-                    </mat-grid-tile>
-</mat-grid-list>
-                    <mat-grid-list cols="2" rowHeight="2:2">
-
-                    <mat-grid-tile>
-                        <mat-card class="example-card mat-elevation-z0">
-                            <img mat-card-image height="30%"  src="assets/images/sketchup.png"
-                                alt="Photo of a Shiba Inu">
-                            <div class="text-center">
-                                <p>SketchUp</p>
-                                <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                            </div>
-                        </mat-card>
-                    </mat-grid-tile>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="30%" src="assets/images/autocad.jpg"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <p>Autocad</p>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
 
-                    <mat-grid-tile>
-                        <mat-card class="example-card mat-elevation-z0">
-                            <img mat-card-image height="30%"  src="assets/images/vray.png"
-                                alt="Photo of a Shiba Inu">
-                            <div class="text-center">
-                                <p>V ray</p>
-                                <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
-                            </div>
-                        </mat-card>
-                    </mat-grid-tile>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="5%" width="5%" src="assets/images/potoshop.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <p>Photoshop</p>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
+                        </mat-grid-list>
+                        <mat-grid-list cols="2" rowHeight="2:2">
 
-                </mat-grid-list>
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="30%" src="assets/images/sketchup.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <p>SketchUp</p>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
 
-                <br>
+
+                            <mat-grid-tile>
+                                <mat-card class="example-card mat-elevation-z0">
+                                    <img mat-card-image height="30%" src="assets/images/vray.png"
+                                        alt="Photo of a Shiba Inu">
+                                    <div class="text-center">
+                                        <p>V ray</p>
+                                        <!-- <mat-card-subtitle>Breed</mat-card-subtitle> -->
+                                    </div>
+                                </mat-card>
+                            </mat-grid-tile>
+
+                        </mat-grid-list>
+
+                        <br>
 
 
-            </div>
-        </mat-tab>
+                    </div>
+                </mat-tab>
 
-    </mat-tab-group>
-</div>
-</div>
+            </mat-tab-group>
+        </div>
+    </div>
 </section>
 
 
@@ -1685,201 +1734,201 @@
             </mat-grid-list>
         </div>
     </div>
-<!-- moble view -->
-<div id="blog1">
-    <div class="text-center ">
-        <h3 id="den">Our's Blog Facility</h3>
-        <p>Choose a best Design.</p>
-    </div>
-    <div class="testimonials-swiper swiper-container swiper-unique-id-0 initialized swiper-container-vertical"
-        data-speed="2000" data-loop="1" data-autoplay="1000" data-center="0" data-mode="vertical"
-        data-slides-per-view="1" data-lg-slides="1,0" data-md-slides="1,0" data-sm-slides="1,0" data-xs-slides="1,0"
-        id="swiper-unique-id-0" style="height: 305px;">
-        <mat-grid-list cols="2">
-            <div id="#carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <!-- moble view -->
+    <div id="blog1">
+        <div class="text-center ">
+            <h3 id="den">Our's Blog Facility</h3>
+            <p>Choose a best Design.</p>
+        </div>
+        <div class="testimonials-swiper swiper-container swiper-unique-id-0 initialized swiper-container-vertical"
+            data-speed="2000" data-loop="1" data-autoplay="1000" data-center="0" data-mode="vertical"
+            data-slides-per-view="1" data-lg-slides="1,0" data-md-slides="1,0" data-sm-slides="1,0" data-xs-slides="1,0"
+            id="swiper-unique-id-0" style="height: 305px;">
+            <mat-grid-list cols="2">
+                <div id="#carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner container pd">
-
-
-
-                    <div class="carousel-item active ">
-                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
-                            style="height: 310px;">
-                            <mat-grid-tile>
-
-                                <mat-card class="example-card des ">
-                                    <img mat-card-image height="200px" src="assets/images/livingRoom.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                        <p class="text-center">
-                                            top1
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-
-                            </mat-grid-tile>
-
-                            <mat-grid-tile>
-
-                                <mat-card class="example-card des ">
-                                    <img mat-card-image height="200px" src="assets/images/home2.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                        <p class="text-center">
-                                            top1
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
-</div>
-                            <div class="carousel-item">
-                            <mat-grid-tile>
-                                <mat-card class="example-card des ">
-                                    <img mat-card-image height="200px" src="assets/images/about1.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                        <p class="text-center">
-                                            top1
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
-                            <mat-grid-tile>
-
-                                <mat-card class="example-card des ">
-                                    <img mat-card-image height="200px" src="assets/images/home2.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                        <p class="text-center">
-                                            top1
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
-                        </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
+                    <div class="carousel-inner container pd">
 
-                    <div class="carousel-item">
-                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
-                            style="height: 310px;">
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/livingRoom.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/home2.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
+
+
+                        <div class="carousel-item active ">
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+                                style="height: 310px;">
+                                <mat-grid-tile>
+
+                                    <mat-card class="example-card des ">
+                                        <img mat-card-image height="200px" src="assets/images/livingRoom.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                            <p class="text-center">
+                                                top1
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+
+                                </mat-grid-tile>
+
+                                <mat-grid-tile>
+
+                                    <mat-card class="example-card des ">
+                                        <img mat-card-image height="200px" src="assets/images/home2.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                            <p class="text-center">
+                                                top1
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
                             </div>
                             <div class="carousel-item">
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/about1.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des ">
+                                        <img mat-card-image height="200px" src="assets/images/about1.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                            <p class="text-center">
+                                                top1
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                                <mat-grid-tile>
+
+                                    <mat-card class="example-card des ">
+                                        <img mat-card-image height="200px" src="assets/images/home2.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                            <p class="text-center">
+                                                top1
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
-                            style="height: 310px;">
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/livingRoom.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/home2.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
+
+                        <div class="carousel-item">
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+                                style="height: 310px;">
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/livingRoom.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/home2.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
                             </div>
                             <div class="carousel-item">
-                            <mat-grid-tile>
-                                <mat-card class="example-card des">
-                                    <img mat-card-image height="180px" src="assets/images/about1.jpg"
-                                        alt="photo of room">
-                                    <mat-card-content>
-                                        <p class="text-center fw-bolder">
-                                            Living Room
-                                        </p>
-                                    </mat-card-content>
-                                </mat-card>
-                            </mat-grid-tile>
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/about1.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+                                style="height: 310px;">
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/livingRoom.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/home2.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                            </div>
+                            <div class="carousel-item">
+                                <mat-grid-tile>
+                                    <mat-card class="example-card des">
+                                        <img mat-card-image height="180px" src="assets/images/about1.jpg"
+                                            alt="photo of room">
+                                        <mat-card-content>
+                                            <p class="text-center fw-bolder">
+                                                Living Room
+                                            </p>
+                                        </mat-card-content>
+                                    </mat-card>
+                                </mat-grid-tile>
+                            </div>
                         </div>
                     </div>
+
+                    <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <!-- <span class=" text-dark carousel-control-prev-icon" aria-hidden="true"></span> -->
+                        <mat-icon class="text-danger">arrow_back_ios</mat-icon>
+                        <span class=" visually-hidden">Previous </span>
+
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                        <mat-icon class="text-danger">arrow_forward_ios</mat-icon>
+                        <span class=" visually-hidden">Next</span>
+                    </button>
+
                 </div>
-
-                <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <!-- <span class=" text-dark carousel-control-prev-icon" aria-hidden="true"></span> -->
-                    <mat-icon class="text-danger">arrow_back_ios</mat-icon>
-                    <span class=" visually-hidden">Previous </span>
-
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-                    <mat-icon class="text-danger">arrow_forward_ios</mat-icon>
-                    <span class=" visually-hidden">Next</span>
-                </button>
-
-            </div>
-        </mat-grid-list>
+            </mat-grid-list>
+        </div>
     </div>
-</div>
 </section>
 
 

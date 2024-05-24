@@ -462,3 +462,83 @@ display: none;}
 } 
 
 
+
+
+.view {
+  position: relative;
+  cursor: default;
+  overflow: hidden;
+}
+.tourism-view {
+  background-image: url('https://www.irctctourism.com/assets/img/tourism-view.webp');
+  height: 350px;
+  width: 100%;
+  top: auto;
+  bottom: 10px;
+  z-index: 1;
+  background-repeat: repeat;
+    position: absolute;
+    left: 0;
+}
+.flight{
+background-image: url('https://www.irctctourism.com/assets/img/flight.webp');
+    height: 48px;
+    width: 160px;
+    top: 15px;
+    z-index: 1;
+    animation: 150s linear infinite flight;
+}
+.train {
+  background-image: url('https://www.irctctourism.com/assets/img/htrain.webp');
+  height: 60px;
+  width: 1644px;
+  bottom: 93px;
+  animation: 50s linear infinite train;
+  background-repeat: repeat;
+    top: auto;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+}
+.bus {
+  background-image: url('https://www.irctctourism.com/assets/img/bus.webp');
+  height: 58px;
+  width: 150px;
+  bottom: 78px;
+  animation: 45s linear infinite reverse bus;
+  background-repeat: repeat;
+  top: auto;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+.cruise {
+  background-image: url('https://www.irctctourism.com/assets/img/cruise.webp');
+  height: 102px;
+  width: 339px;
+  bottom: 15px;
+  animation: 90s linear infinite cruise;
+  background-repeat: repeat;
+    top: auto;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+.background {
+  background-color: #348abb;
+  position: absolute;
+  height: 137px;
+  width: 100vw;
+  bottom: 0;
+}
+.background .water {
+  background: url('https://www.irctctourism.com/assets/img/sea.webp');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: url(#turbulence);
+}
